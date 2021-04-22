@@ -80,6 +80,10 @@ GLOBAL CLASSES
 
 */
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -106,13 +110,13 @@ section {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-/* 
+
 footer {
-  margin-top: 2rem;
+  margin-top: 0 !important;
   color: var(--primary-lighter-4);
   background-color: var(--primary-darker-5);
   text-align: center;
-} */
+}
 
 footer a {
   text-decoration: none;

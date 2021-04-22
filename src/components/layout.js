@@ -29,7 +29,10 @@ const Layout = ({ children }) => {
       <Header />
       <main>{children}</main>
       <footer className="container py-1">
-        © {new Date().getFullYear()}, Design by
+        <a href="mailto:info@dogservicesinternational.com">
+          info@dogservicesinternational.com
+        </a>
+        <br />© {new Date().getFullYear()}, Design by
         {` `}
         <a href="https://www.tagastudios.com">Taga Studios</a>
       </footer>

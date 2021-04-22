@@ -12,12 +12,12 @@ const Header = () => (
     <div className="container">
       <Link to="/">
         <StaticImage
-          src="../images/DSI-LOGO.svg"
+          src="../images/DSI-LOGO.png"
           quality={100}
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="DSI Logo"
           className={style.logo}
-          placeholder="tracedSVG"
+          placeholder="blurred"
         />
       </Link>
       <nav className={style.nav}>

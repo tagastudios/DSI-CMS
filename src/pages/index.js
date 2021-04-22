@@ -29,23 +29,23 @@ function IndexPage() {
     {
       title: "i highly recommend working with him..",
       description:
-        "We had the pleasure of working with Juan when we opened our first dog daycare in 2013.  Juan was always willing to talk and also very professional.  Her expertise, policies and procedures undeniably helped form the backbone of our company.  I highly recommend working with him if you’re looking to open a state-of-the-art dog daycare facility.",
+        "We had the pleasure of working with Juan when we opened our first dog daycare in 2013.  Juan was always willing to talk and also very professional.  His expertise, policies and procedures undeniably helped from the backbone of our company.  I highly recommend working with him if you’re looking to open a state-of-the-art dog daycare facility.",
       id: 1,
-      author: "Laura Bryant of Puppy Haven",
+      author: "Jane Harper of DogCity",
     },
     {
-      title: "test 2",
+      title: "You will not be disappointed!",
       description:
-        "We had the pleasure of working with Amanda when we opened our first dog daycare in 2013.  Amanda was always willing to talk and also very professional.  Her expertise, policies and procedures undeniably helped form the backbone of our company.  I highly recommend working with Amanda if you’re looking to open a state-of-the-art dog daycare facility.",
+        "We used DSI for a major daycare repair. We remodeled our big dog nursery. We also remodeled the entire lobby - new tile floors, counter tops, removed a wall, moved electrical and plumbing. DSI did an outstanding job! Professional, great with recommendations and consulting. They kept the daycare as organized and clean during the renovations for customers. I highly recommend the DSI Team. You will not be disappointed!",
       id: 2,
-      author: "Me",
+      author: "Andy Rodriguez of Pets & Fun",
     },
     {
-      title: "test 3",
+      title: "DSI deserves our recommendation..",
       description:
-        "“We had the pleasure of working with Amanda when we opened our first dog daycare in 2013.  Amanda was always willing to talk and also very professional.  Her expertise, policies and procedures undeniably helped form the backbone of our company.  I highly recommend working with Amanda if you’re looking to open a state-of-the-art dog daycare facility.",
+        "The attention that we have received from the beginning has been very good, very customized and mainly fast, this is thanks to all the communication. We feel very satisfied with your company, and has covered our expectations regarding to confidence and sense of responsibility. DSI deserves our recommendation",
       id: 3,
-      author: "Me",
+      author: "Tom & Kate Nelson of WorldWoof",
     },
   ]
 
@@ -231,6 +231,7 @@ function IndexPage() {
               type="text"
               name="user_name"
               autocomplete="name"
+              required
             />
             <label htmlFor="user_email">Email</label>
             <input
@@ -238,6 +239,7 @@ function IndexPage() {
               type="email"
               name="user_email"
               autocomplete="email"
+              required
             />
             <label htmlFor="contact_number">Phone Number</label>
             <input
@@ -245,9 +247,10 @@ function IndexPage() {
               autocomplete="tel"
               name="contact_number"
               id="contact_number"
+              required
             />
             <label htmlFor="user_message">Message</label>
-            <textarea id="user_message" name="message" />
+            <textarea id="user_message" name="message" required />
             <input type="submit" value="Send" />
           </form>
         </article>

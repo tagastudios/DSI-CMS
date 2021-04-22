@@ -388,6 +388,10 @@ REVIEWS
   text-align: center;
   font-size: 1.2rem;
   text-decoration: underline var(--secondary-color) 3px;
+  -webkit-text-decoration: underline var(--secondary-color) 3px;
+  -moz-text-decoration: underline var(--secondary-color) 3px;
+  -ms-text-decoration: underline var(--secondary-color) 3px;
+  -o-text-decoration: underline var(--secondary-color) 3px;
 }
 
 .slide div h4::first-letter {
@@ -425,6 +429,7 @@ REVIEWS
   margin-top: 1rem;
   font-size: 0.9rem;
   font-weight: 600;
+  text-shadow: white 1px 1px 1px;
 }
 
 .slide div p::before {
@@ -485,6 +490,10 @@ REVIEWS
     background-position: 50% -10%;
   }
 
+  .slide:nth-child(2) div {
+    padding-bottom: 2.5rem !important;
+  }
+
   .slide:nth-child(3) div {
     background-position: 0% 85%;
   }
@@ -498,9 +507,13 @@ REVIEWS
     background-position: 50% -300%;
   }
 
-  .slide:not(:nth-child(2)) p {
+  /* .slide:not(:nth-child(2)) p {
     color: white !important;
     text-shadow: black 2px 2px 8px;
+  } */
+
+  .slide:nth-child(2) div {
+    padding-bottom: 2rem !important;
   }
 
   .slide:nth-child(3) div {
@@ -672,6 +685,10 @@ BLOG
 
 */
 
+.social {
+  margin-bottom: 2rem;
+}
+
 .social h3 {
   text-align: center;
   font-size: 2rem;
@@ -687,11 +704,30 @@ BLOG
 }
 
 .social article {
-  display: flex;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
   width: 100%;
 }
 
 .socialImg {
   width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .social h3 a {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .social h3 a {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .social h3 a {
+    font-size: 1rem;
+  }
 }

@@ -16,6 +16,7 @@ HEADER
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 120px;
 }
 
 .header div a {
@@ -66,7 +67,16 @@ MEDIA QUERIES
 
 */
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 130px;
+  }
+  .nav ul {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
   .nav ul li:not(:last-child) {
     display: none;
     margin: 0;
@@ -79,5 +89,15 @@ MEDIA QUERIES
   .nav ul li:hover {
     border: none;
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header div {
+    height: 80px;
+  }
+
+  .logo {
+    width: 100px !important;
   }
 }
