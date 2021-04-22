@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Dog Services International`,
+    description: `DSI is a group of experienced consultors specialized at improving services/procedures and maintaining physical locations/equipment running seamlessly for Dog Daycares, Dog Boarding, Dog Trainers and other dog related businesses.`,
+    author: `@tagastudios`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

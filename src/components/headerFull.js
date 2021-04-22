@@ -26,19 +26,16 @@ const Header = () => (
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/#services">Services</Link>
+            <Link to="/services">Services</Link>
           </li>
           <li>
-            <Link to="/#whyus">Why Us?</Link>
+            <Link to="/about">Why Us?</Link>
           </li>
           <li>
-            <Link to="/#testimonials">Testimonials</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
-            <Link to="/#contact">Contact</Link>
-          </li>
-          <li>
-            <Link to="/#social">Social</Link>
+            <Link to="contact">Contact</Link>
           </li>
           <li>
             <FaBars className={style.menuIcon} />

@@ -1,0 +1,131 @@
+/* 
+
+
+COLOR PALETTE 
+
+
+*/
+:root {
+  --blue-gradient: #2a586b;
+  --gray: #dedbd7;
+  --gray-darker-1: #a5b1b4;
+
+  --primary-color: #00384f;
+  --primary-darker-1: #003247;
+  --primary-darker-2: #002d3f;
+  --primary-darker-3: #002737;
+  --primary-darker-4: #00222f;
+  --primary-darker-5: #001c28;
+  --primary-darker-6: #001620;
+  --primary-darker-7: #001118;
+  --primary-darker-8: #000b10;
+  --primary-darker-9: #000608;
+  --primary-darker-10: #000000;
+  --primary-lighter-1: #1a4c61;
+  --primary-lighter-2: #336072;
+  --primary-lighter-3: #4d7484;
+  --primary-lighter-4: #668895;
+  --primary-lighter-5: #809ca7;
+  --primary-lighter-6: #99afb9;
+  --primary-lighter-7: #b3c3ca;
+  --primary-lighter-8: #ccd7dc;
+  --primary-lighter-9: #e6ebed;
+  --primary-lighter-10: #ffffff;
+
+  --secondary-color: #a67c52;
+  --secondary-darker-1: #95704a;
+  --secondary-darker-2: #856342;
+  --secondary-darker-3: #745739;
+  --secondary-darker-4: #644a31;
+  --secondary-darker-5: #533e29;
+  --secondary-darker-6: #423221;
+  --secondary-darker-7: #322519;
+  --secondary-darker-8: #211910;
+  --secondary-darker-9: #110c08;
+  --secondary-darker-10: #000000;
+  --secondary-lighter-1: #af8963;
+  --secondary-lighter-2: #b89675;
+  --secondary-lighter-3: #c1a386;
+  --secondary-lighter-4: #cab097;
+  --secondary-lighter-5: #d3bea9;
+  --secondary-lighter-6: #dbcbba;
+  --secondary-lighter-7: #e4d8cb;
+  --secondary-lighter-8: #ede5dc;
+  --secondary-lighter-9: #f6f2ee;
+  --secondary-lighter-10: #ffffff;
+}
+
+/*
+
+
+IMPORTS
+
+
+*/
+
+@import url("../styles/typography.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --primary-font: "FredokaOne";
+  --secondary-font: "TabarraShadow";
+  --secondary-font-italic: "TabarraShadowItalic";
+  --regular-font: "Montserrat";
+}
+
+/*
+
+
+GLOBAL CLASSES
+
+
+*/
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1.5rem;
+}
+
+.py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+/* 
+footer {
+  margin-top: 2rem;
+  color: var(--primary-lighter-4);
+  background-color: var(--primary-darker-5);
+  text-align: center;
+} */
+
+footer a {
+  text-decoration: none;
+  color: var(--primary-lighter-7);
+}
+
+/* TEXT */
+
+h1 {
+  font-family: var(--primary-font);
+}
+
+p {
+  font-family: var(--regular-font);
+  margin: 0;
+}

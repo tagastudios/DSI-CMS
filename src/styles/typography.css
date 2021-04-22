@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "FredokaOne";
+  src: url("../fonts/FredokaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "TabarraShadow";
+  src: url("../fonts/Tabarra-Shadow-FFP.otf");
+}
+
+@font-face {
+  font-family: "TabarraShadowItalic";
+  src: url("../fonts/Tabarra-Shadow-Italic-FFP.otf");
+}
